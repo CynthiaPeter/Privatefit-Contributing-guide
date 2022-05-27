@@ -1,8 +1,11 @@
 <img width=250px src="https://atsign.dev/assets/img/@platform_logo_grey.svg?sanitize=true">
 
-# Contributing guidelines
+# Contributing to Priv@tfit
 
-We 💙 [Pull Requests](https://help.github.com/articles/about-pull-requests/)
+Hi there!
+Thanks for your interest in contributing to Priv@tefit.
+
+We 💙 and accept [Pull Requests](https://help.github.com/articles/about-pull-requests/)
 for fixing issues or adding features. Thanks for your contribution!
 
 Please read our [code of conduct](code_of_conduct.md), which is based on
@@ -26,11 +29,8 @@ describe.
 
 ### Prerequisites
 
-   ``` sh
-   Install Dart: https://dart.dev/get-dart
-   Install Flutter: https://docs.flutter.dev/get-started/install
-
-   ```
+  * Install Dart: https://dart.dev/get-dart
+  * Install Flutter: https://docs.flutter.dev/get-started/install
 
 
 ### GitHub Repository Clone
