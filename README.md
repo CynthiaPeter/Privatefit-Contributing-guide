@@ -11,15 +11,16 @@ for fixing issues or adding features.
 Please read our [code of conduct](code_of_conduct.md), which is based on
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 
+### Housekeeping
 
-For small changes, especially documentation, you can simply use the "Edit" button
+→ For small changes, especially documentation, you can simply use the "Edit" button
 to update the Markdown file, and start the
 [pull request](https://help.github.com/articles/about-pull-requests/) process.
 
-Use the preview tab in GitHub to make sure that it is properly
+→ Use the preview tab in GitHub to make sure that it is properly
 formatted before committing.
 
-A pull request will cause integration tests to run automatically, so please review
+→ A pull request will cause integration tests to run automatically, so please review
 the results of the pipeline and correct any mistakes that are reported.
 
 ﹗ **Important:** If you plan to contribute often or have a larger change to make, it is best to
