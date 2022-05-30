@@ -16,6 +16,8 @@ Please read our [code of conduct](code_of_conduct.md), which is based on
 
 → Check existing issues to verify that the bug or feature request has not already been submitted.
 
+→ Open a pull request for any issue labelled help wanted or good first issue.
+
 → For small changes, especially documentation, you can simply use the "Edit" button
 to update the Markdown file, and start the
 [pull request](https://help.github.com/articles/about-pull-requests/) process.
@@ -26,7 +28,7 @@ formatted before committing.
 → A pull request will cause integration tests to run automatically, so please review
 the results of the pipeline and correct any mistakes that are reported.
 
-**﹗Important:** *If you plan to contribute often or have a larger change to make, it is best to
+**❕Important:** *If you plan to contribute often or have a larger change to make, it is best to
 setup an environment for contribution, which is what the rest of these guidelines
 describe.*
 
