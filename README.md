@@ -11,7 +11,7 @@ for fixing issues or adding features.
 Please read our [code of conduct](code_of_conduct.md), which is based on
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 
-### Housekeeping
+🧹 ### Housekeeping
 
 → For small changes, especially documentation, you can simply use the "Edit" button
 to update the Markdown file, and start the
