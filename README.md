@@ -6,7 +6,7 @@ Hi there!
 Thanks for your interest in contributing to Priv@tefit.
 
 We 💙 and accept [Pull Requests](https://help.github.com/articles/about-pull-requests/)
-for fixing issues or adding features. Thanks for your contribution!
+for fixing issues or adding features.
 
 Please read our [code of conduct](code_of_conduct.md), which is based on
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
