@@ -107,7 +107,9 @@ In general, contributors should develop on branches based off of main.
 
 ### For Designers🎨
 
-You may reference the [Priv@tefit]() Design System when suggesting features, and are welcome to use our [Google Docs Template]() to suggest designs.
+You may reference this [issue](https://github.com/atsign-foundation/privatefit/issues/5).
+
+Please take a look at the Design System when suggesting features, and you are welcome to use our [Google Docs Template]() to suggest designs under the issue as a comment.
 
 -
 
