@@ -36,13 +36,13 @@ describe.*
 ## How can you contribute?
 
 ### Developer:- 
-→ Branching Strategy: In general, contributors should develop on branches based off of main.
+* Branching Strategy: In general, contributors should develop on branches based off of main.
 
-→ Developer environment setup
+* Developer environment setup
 
-→ Submitting a Pull Request
+* Submitting a Pull Request
 
-→ Updating 3rd party packages:
+* Updating 3rd party packages:
 
 ### Designer:-
 		Link to design system and files
@@ -59,12 +59,12 @@ Do you want to contribute to the Privatefit documentation? Please read through t
 
 → Got ideas for a feature, open an issue to propose a change.
 
-→ Find other ways that you can contribute to our projects by reading this article.
+→ Find other ways that you can contribute to our projects by reading [this article](https://opensource.guide/how-to-contribute/).
 
 
 **Please avoid:**
 
-Opening pull requests for any issue marked core. These issues require additional context from the core team at Priv@teFit and any external pull requests will not be accepted. 
+→ Opening pull requests for any issue marked core. These issues require additional context from the core team at Priv@teFit and any external pull requests will not be accepted. 
 
 ## Discussions
 
@@ -73,11 +73,12 @@ Opening pull requests for any issue marked core. These issues require additional
 ## Releasing
 
 ## 📚Resources
-→ A guide to making open source contributions
 
-→ About Pull Requests
+→ [A guide to making open source contributions](https://opensource.guide/how-to-contribute/).
 
-→ Github Help
+→ [About Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+
+→ [Github Help](https://docs.github.com/en).
 
 ---
 
