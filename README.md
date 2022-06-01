@@ -32,6 +32,55 @@ the results of the pipeline and correct any mistakes that are reported.
 setup an environment for contribution, which is what the rest of these guidelines
 describe.*
 
+
+## How can you contribute?
+
+### Developer:- 
+Branching Strategy: In general, contributors should develop on branches based off of main.
+Developer environment setup:
+Submitting a Pull Request: 
+Updating 3rd party packages:
+
+### Designer:-
+		Link to design system and files
+
+### Technical, UX, Business Writers:-
+Do you want to contribute to the Privatefit documentation? Please read through the docs contributing guides and design systems.
+
+### Create yours….
+Find a bug, report it.
+Find a typo, help us fix it.
+Got ideas for a feature, open an issue to propose a change.
+Find other ways that you can contribute to our projects by reading this article.
+
+**Please avoid:**
+
+Opening pull requests for any issue marked core. These issues require additional context from the core team at Priv@teFit and any external pull requests will not be accepted. 
+
+## Discussions
+
+#PrivateFit channel on our discord community is a great place to ask questions, provide feedback that isn't a bug complaint or feature request, and learn about best practices. There's even a search button to discover if your question has already been answered!
+
+## Releasing
+
+## Resources
+A guide to making open source contributions
+About Pull Requests
+Github Help
+
+—--
+
+Priv@tefit is possible because of you and other volunteers. We encourage you to pitch in and join the team! 
+
+Thanks
+Priv@teFit Team
+
+
+
+
+
+
+
 ## Development Environment Setup
 
 
