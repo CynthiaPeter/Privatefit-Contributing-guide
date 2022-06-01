@@ -35,14 +35,83 @@ describe.*
 
 ## How can you contribute?
 
-### Developer:- 
-* Branching Strategy: In general, contributors should develop on branches based off of main.
+### Developer
+  
+**Branching Strategy** 
 
-* Developer environment setup
+In general, contributors should develop on branches based off of main.
 
-* Submitting a Pull Request
 
-* Updating 3rd party packages:
+**Developer environment setup**
+
+**Prerequisites**
+
+  * Install Dart: https://dart.dev/get-dart
+  * Install Flutter: https://docs.flutter.dev/get-started/install
+
+**GitHub Repository Clone**
+
+To prepare your dedicated GitHub repository:
+
+1. Fork in GitHub https://github.com/atsign-foundation/REPO
+2. Clone *your forked repository* (e.g., `git clone git@github.com:yourname/REPO`)
+3. Set your remotes as follows:
+
+    ```sh
+   cd REPO
+   git remote add upstream git@github.com:atsign-foundation/REPO.git
+   git remote set-url upstream --push DISABLED
+   ```
+
+   Running `git remote -v` should give something similar to:
+
+   ```text
+   origin  git@github.com:yourname/REPO.git (fetch)
+   origin  git@github.com:yourname/REPO.git (push)
+   upstream        git@github.com:atsign-foundation/REPO.git (fetch)
+   upstream        DISABLED (push)
+   ```
+
+   The use of `upstream --push DISABLED` is to prevent those
+   with `write` access to the main repository from accidentally pushing changes
+   directly.
+   
+ **Development Process**
+
+1. Fetch latest changes from main repository:
+
+   ```sh
+   git fetch upstream
+   ```
+
+1. Reset your fork's `trunk` branch to exactly match upstream `trunk`:
+
+   ```sh
+   git checkout trunk
+   git reset --hard upstream/trunk
+   git push --force
+   ```
+
+   **IMPORTANT**: Do this only once, when you start working on new feature as
+   the commands above will completely overwrite any local changes in `trunk` content. 
+
+** 1. Edit, edit, edit, and commit your changes to Git:
+
+   ```sh
+   # edit, edit, edit
+   git add *
+   git commit -m 'A useful commit message'
+   git push
+   ```
+
+1. Open a new Pull Request to the main repository using your `trunk` branch
+
+
+**Submitting a Pull Request**
+
+**Updating 3rd party packages**
+
+
 
 ### Designer:-
 		Link to design system and files
@@ -85,75 +154,5 @@ Do you want to contribute to the Privatefit documentation? Please read through t
 Priv@tefit is possible because of you and other volunteers. We encourage you to pitch in and join the team! 
 
 Thanks
+
 Priv@teFit Team
-
-
-
-
-
-
-
-## Development Environment Setup
-
-
-### Prerequisites
-
-  * Install Dart: https://dart.dev/get-dart
-  * Install Flutter: https://docs.flutter.dev/get-started/install
-
-
-### GitHub Repository Clone
-
-To prepare your dedicated GitHub repository:
-
-1. Fork in GitHub https://github.com/atsign-foundation/REPO
-2. Clone *your forked repository* (e.g., `git clone git@github.com:yourname/REPO`)
-3. Set your remotes as follows:
-
-   ```sh
-   cd REPO
-   git remote add upstream git@github.com:atsign-foundation/REPO.git
-   git remote set-url upstream --push DISABLED
-   ```
-
-   Running `git remote -v` should give something similar to:
-
-   ```text
-   origin  git@github.com:yourname/REPO.git (fetch)
-   origin  git@github.com:yourname/REPO.git (push)
-   upstream        git@github.com:atsign-foundation/REPO.git (fetch)
-   upstream        DISABLED (push)
-   ```
-
-   The use of `upstream --push DISABLED` is to prevent those
-   with `write` access to the main repository from accidentally pushing changes
-   directly.
-   
-### Development Process
-
-1. Fetch latest changes from main repository:
-
-   ```sh
-   git fetch upstream
-   ```
-
-1. Reset your fork's `trunk` branch to exactly match upstream `trunk`:
-
-   ```sh
-   git checkout trunk
-   git reset --hard upstream/trunk
-   git push --force
-   ```
-
-   **IMPORTANT**: Do this only once, when you start working on new feature as
-   the commands above will completely overwrite any local changes in `trunk` content.
-1. Edit, edit, edit, and commit your changes to Git:
-
-   ```sh
-   # edit, edit, edit
-   git add *
-   git commit -m 'A useful commit message'
-   git push
-   ```
-
-1. Open a new Pull Request to the main repository using your `trunk` branch
