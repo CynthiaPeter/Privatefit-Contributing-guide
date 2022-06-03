@@ -34,6 +34,7 @@ describe.*
 
 
 ## How can I contribute?
+If you're skeptical or don't know where to begin, read on to find out what kind of assistance we could use and how you can help.
 
 ### For Developers - Developer environment setup
   
@@ -41,7 +42,31 @@ describe.*
 
   * Install Dart: https://dart.dev/get-dart
   * Install Flutter: https://docs.flutter.dev/get-started/install
-  
+
+**Branching Strategy** 
+
+In general, contributors should develop on branches based off of main.
+
+**Branch naming convention** 
+
+` TYPE-ISSUE_1D-Short-Description`
+
+example:
+
+```  
+  design-212-a-pull-request-for-a-design-system
+```
+
+When TYPE can be:
+
+* design - design related features or improvements.
+* feat - a new feature.
+* doc - documentation related changes, only.
+* cicd - changes related to CI/CD system.
+* fix - a bug fix.
+* refactor - code change that neither fixes a bug nor adds a feature, but improves the project.
+
+
 **GitHub Repository Clone**
 
 To prepare your dedicated GitHub repository:
@@ -50,7 +75,7 @@ To prepare your dedicated GitHub repository:
 2. Clone *your forked repository* (e.g., `git clone git@github.com:yourname/REPO`)
 3. Set your remotes as follows:
 
-    ```sh
+   ```sh
    cd REPO
    git remote add upstream git@github.com:atsign-foundation/REPO.git
    git remote set-url upstream --push DISABLED
@@ -70,6 +95,8 @@ To prepare your dedicated GitHub repository:
    directly. 
   
  **Development Process**
+ 
+All PRs must include a commit message with the changes description!
 
 1. Fetch latest changes from main repository:
 
@@ -97,11 +124,7 @@ To prepare your dedicated GitHub repository:
    git push
    ```
 
- 4. Open a new Pull Request to the main repository using your `trunk` branch 
-  
-**Branching Strategy** 
-
-In general, contributors should develop on branches based off of main.
+ 4. Open a new Pull Request to the main repository using your `trunk` branch.
 
 -
 
@@ -116,6 +139,8 @@ Please take a look at the Design System when suggesting features, and you are we
 ### For Technical, UX, Business Writers✍️ 
 
 Do you want to contribute to the Privatefit documentation? Please read through the docs [contributing guides]() and design systems.
+
+Submitting updates on documentation, upgrades, designs, or product copy. Corrections to spelling or punctuation will be greatly appreciated.
 
 -
 
