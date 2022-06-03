@@ -147,7 +147,7 @@ Do you want to contribute to the Privatefit documentation? Please read through t
 
 ---
 
-Priv@tefit is possible because of you and other volunteers. We encourage you to pitch in and join the team! 
+Priv@tefit is possible because of you and other volunteers. We want contributing to Priv@teFit to be fun, enjoyable, and educational for anyone and everyone. We encourage you to pitch in and join the team! 
 
 Thanks for Contributing❕
 
